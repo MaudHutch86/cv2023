@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Interactive CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+
+        <header>
+            <h1 id="MyName">Maud HUTCHINSON</h1>
+            <p id="Profession">Full Stack Web Developer</p>
+            <img id="profileImage" src="ReadyPlayerMe-Avatar (1).png" alt="Your Profile Image">
+        </header>
+
+        <section id="contact">
+            <nav>
+                <a href="https://github.com/MaudHutch86" target="_blank">
+                    <img id="githubIcon" src="githubIcon.png" alt="Logo 3">
+                </a>
+                <a href="https://www.linkedin.com/in/maud-hutchinson-remote-full-stack-javascript-react-mongodb-developer-jobs/" target="_blank">
+                    <img class="icon" src="LinkedInIcon.png" alt="Logo 1">
+                </a>
+                <a href="#" target="_blank">
+                    <img class="icon" src="discordIcon.png" alt="Logo 2">
+                </a>
+               
+            </nav>
+        
+        </section>
+
+
+        <section id="education">
+            <h2>Education</h2>
+            <!-- Add more education fields as needed -->
+            <p>Alyra, l'école blockchain - 2022</p>
+            <p>Cloud Architect , AWS - 2022</p>
+            <p>AFPA - Computer Programming -  2020 to 2021</p>
+            <p>Université de Caen - Bachelor's degree French and Linguistics - 2015 - 2016</p>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <!-- Add more work experience fields as needed -->
+            <p> Full - Stack Developer -  Freelance - since March 2023</p>
+            <p> Full - Stack Developer - Osborne Solution - 2021</p>
+            <p> Full - Stack Developer - Europe - Echecs - 3 Months Intership</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <!-- Add more skills as needed -->
+            <p>AWS - GIT - Javascript - React - Typescript - PHP - Symfony - MongoDB</p>
+        </section>
+        <a target="_blank" href="https://icons8.com/icon/13930/linkedin">LinkedIn</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+        <script>
+            document.getElementById('contactForm').addEventListener('submit', function (e) {
+                e.preventDefault();
+                alert('Form submitted! Add AJAX or other logic here to handle form data.');
+            });
+        </script>
+
+    </main>
+
+</body>
+
+</html>
